@@ -1,5 +1,3 @@
-// TextureDetection.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
@@ -19,8 +17,6 @@ String validation_dir_path = "./database2/validation";
 String test_image_path = "./database2/test/4 (6).png";
 
 
-//MILESTONE 1
-//LBP Feature Extraction using OpenCV and C++
 void lbpFeaturedetection() {
 	Utils utils;
 	Mat img = cv::imread(test_image_path);
@@ -35,8 +31,6 @@ void lbpFeaturedetection() {
 }
 
 
-//MILESTONE 2
-//OPENCV SVM CLASSIFIER
 void trainAndTest() {
 	Mat img;
 	Utils utils;
@@ -62,12 +56,8 @@ void trainAndTest() {
 int main()
 {
 
-	// MILESTONE 1
-	//LBP Feature Extraction using OpenCV and C++
 	lbpFeaturedetection();
 
-	//MILESTONE 2 & 3
-	//OPENCV SVM CLASSIFIER
 	trainAndTest();
 	
 }
