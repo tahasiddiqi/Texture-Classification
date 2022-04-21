@@ -19,12 +19,6 @@ Mat Utils::rgb2Gray(Mat img)
 	return gray;
 }
 
-Mat Utils::rgba2Gray(Mat img)
-{
-	Mat gray;
-	cv::cvtColor(img, gray, cv::COLOR_BGRA2GRAY);
-	return gray;
-}
 
 bool Utils::checkFileExist(const std::string& name)
 {
