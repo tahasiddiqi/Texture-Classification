@@ -13,7 +13,7 @@
 2. Install CMake 
 	a. Windows/Ubuntu (https://cmake.org/install/)
 	b. Mac 
-	`brew install cmake`
+	`install cmake`
 3. Install OpenCV 
 	a. Windows https://docs.opencv.org/4.5.2/d3/d52/tutorial_windows_install.html
 	b. Ubuntu https://docs.opencv.org/4.5.2/d7/d9f/tutorial_linux_install.html
@@ -26,3 +26,4 @@
 	`bash run.sh`
 2. For windows
 	`./run.bat`
+
